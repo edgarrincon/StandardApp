@@ -1,0 +1,23 @@
+.ytvideo {
+  display: flex;
+  padding: 50px 0 80px 0;
+  flex-direction: row;
+  background-color: #f0f8ff;
+  justify-content: center;
+}
+.title__video {
+  display: flex;
+  padding-top: 50px;
+  flex-direction: column;
+  background-color: #f0f8ff;
+  justify-content: center;
+  text-align: center;
+  color: #000034;
+}
+
+.title__video h2 {
+  font-size: 48px;
+}
+.title__video p {
+  font-size: 18px;
+}

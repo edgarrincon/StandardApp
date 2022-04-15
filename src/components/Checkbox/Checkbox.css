@@ -1,0 +1,121 @@
+.container__checkbox {
+  display: flex;
+  flex-direction: column;
+}
+
+.container__checkbox span {
+  color: #ffffff;
+}
+.checkbox__content {
+  text-align: left;
+  display: inline-block;
+}
+
+.switcher {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  padding-left: 53px;
+  line-height: 20px;
+  margin: 0;
+  font-size: 1rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.switcher input {
+  display: none;
+}
+
+.switcher__indicator::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #d5d5d5;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  -webkit-animation-name: pulsein;
+  animation-name: pulsein;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+}
+.switcher__indicator::before {
+  content: "";
+  position: absolute;
+  top: 9px;
+  left: 0;
+  width: 40px;
+  height: 4px;
+  background-color: #d5d5d5;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+input:checked + .switcher__indicator::after {
+  background-color: #29ce9a;
+  transform: translateX(30px);
+  -webkit-animation-name: pulseout;
+  animation-name: pulseout;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+}
+input:checked + .switcher__indicator::before {
+  background-color: #29ce9a;
+}
+
+@-webkit-keyframes pulsein {
+  0%,
+  100% {
+    top: 0px;
+    height: 20px;
+    width: 20px;
+  }
+  50% {
+    top: 6px;
+    height: 14px;
+    width: 26px;
+  }
+}
+
+@keyframes pulsein {
+  0%,
+  100% {
+    top: 0px;
+    height: 20px;
+    width: 20px;
+  }
+  50% {
+    top: 6px;
+    height: 14px;
+    width: 26px;
+  }
+}
+@-webkit-keyframes pulseout {
+  0%,
+  100% {
+    top: 0px;
+    height: 20px;
+    width: 20px;
+  }
+  50% {
+    top: 6px;
+    height: 14px;
+    width: 26px;
+  }
+}
+@keyframes pulseout {
+  0%,
+  100% {
+    top: 0px;
+    height: 20px;
+    width: 20px;
+  }
+  50% {
+    top: 6px;
+    height: 14px;
+    width: 26px;
+  }
+}

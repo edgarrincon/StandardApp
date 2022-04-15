@@ -1,0 +1,151 @@
+.pricing__section {
+  padding: 100px 0 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #f0f8ff;
+}
+
+.pricing__container-card {
+  background: #000034;
+  box-shadow: 0 6px 20px rgba(0, 0, 34, 0.5);
+  width: 280px;
+  height: 500px;
+  text-decoration: none;
+  text-shadow: 1px 1px #000000;
+  border-radius: 4px;
+}
+
+.pricing__container-card:nth-child(2) {
+  transform: scale(1.05);
+  background: #000034;
+  margin: 0 24px;
+}
+
+.pricing__container-card:hover {
+  transform: scale(1.06);
+  transition: all 0.3s ease-out;
+  color: #000034;
+}
+
+.pricing__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pricing__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 12px auto;
+}
+
+.pricing__heading {
+  color: #000034;
+  margin-bottom: 24px;
+}
+
+.pricing__container-cardInfo {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  padding: 24px;
+  align-items: center;
+  color: #fff;
+}
+
+.pricing__container-cardInfo h3 {
+  margin-bottom: 5px;
+  font-size: 24px;
+}
+
+.pricing__container-cardInfo h4 {
+  font-size: 40px;
+}
+
+.pricing__container-cardInfo p {
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+.pricing__container-features {
+  margin: 16px 0 32px;
+  list-style: none;
+}
+
+.pricing__container-features li {
+  margin-bottom: 10px;
+}
+
+.pricing__container-features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.icon {
+  margin: 24px 0;
+}
+
+@media screen and (max-width: 960px) {
+  .pricing__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .pricing__container-card {
+    width: 90%;
+  }
+
+  .pricing__wrapper {
+    margin: 0 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pricing__container-card:nth-child(2) {
+    transform: scale(1);
+    background: #000034;
+    margin: 24px;
+  }
+
+  .pricing__container-card:hover {
+    transform: none;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .pricing__container-cardInfo h3 {
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+
+  .pricing__container-cardInfo h4 {
+    font-size: 36px;
+  }
+
+  .pricing__container-cardInfo p {
+    font-size: 10px;
+    margin-bottom: 12px;
+  }
+
+  .btn--wide {
+    padding: 12px 12px;
+    font-size: 16px;
+  }
+  .icon {
+    display: flex;
+    margin: 12px;
+    flex-direction: row;
+  }
+  .pricing__section {
+    padding: 60px 0 60px 0;
+    margin: 0 -20px;
+  }
+}
