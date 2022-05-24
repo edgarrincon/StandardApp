@@ -7,8 +7,7 @@ export const homeObjOne = {
   description: "eCommerce made by Woocommerce sync with Odoo ERP",
   buttonLabel: "Go to La Cumbre",
   imgStart: "",
-  img:
-    "https://github.com/edgarrincon/standards/blob/main/src/img/lacumbre.png?raw=true",
+  img: "https://github.com/edgarrincon/StandardApp/blob/main/src/img/lacumbre.png?raw=true",
   alt: "LaCumbre",
   linkTo: "./lacumbre",
   buttonSize: "btn--wide",
@@ -25,8 +24,7 @@ export const homeObjTwo = {
     "Latest news on sports and opinion made with React and Wordpress (Frontity)",
   buttonLabel: "visit this Page",
   imgStart: "start",
-  img:
-    "https://github.com/edgarrincon/standards/blob/main/src/img/pisodeportivo.png?raw=true",
+  img: "https://github.com/edgarrincon/StandardApp/blob/main/src/img/pisodeportivo.png?raw=true",
   alt: "Piso Deportivo",
   linkTo: "./piso",
   buttonSize: "btn--wide",
@@ -42,8 +40,7 @@ export const homeObjThree = {
   description: "made 100% with react",
   buttonLabel: "Go home",
   imgStart: "",
-  img:
-    "https://github.com/edgarrincon/standards/blob/main/src/img/logo.png?raw=true",
+  img: "https://github.com/edgarrincon/StandardApp/blob/main/src/img/logo.png?raw=true",
   alt: "Standards Apps",
   linkTo: "./",
   buttonSize: "btn--wide",
@@ -59,8 +56,7 @@ export const homeObjFour = {
   description: "official site for an amazing company",
   buttonLabel: "visit this Page",
   imgStart: "start",
-  img:
-    "https://raw.githubusercontent.com/edgarrincon/standards/main/src/img/bsi.png",
+  img: "https://raw.githubusercontent.com/edgarrincon/StandardApp/main/src/img/bsi.png",
   alt: "BSI",
   linkTo: "./bsi",
   buttonSize: "btn--wide",

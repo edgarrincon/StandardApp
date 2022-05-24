@@ -7,8 +7,7 @@ export const homeObjOne = {
   description: "Web Developer & CEO Standards Apps",
   buttonLabel: "Meet Edgar",
   imgStart: "start",
-  img:
-    "https://github.com/edgarrincon/standards/blob/main/src/img/EdgarCapitolio.jpg?raw=true",
+  img: "https://github.com/edgarrincon/StandardApp/blob/main/src/img/EdgarCapitolio.jpg?raw=true",
   alt: "Edgar Rincon",
   linkTo: "./edgar",
   buttonSize: "btn--wide",
@@ -24,8 +23,7 @@ export const homeObjTwo = {
   description: "Web Developer & Cofunder Standards Apps",
   buttonLabel: "Meet Victor",
   imgStart: "",
-  img:
-    "https://github.com/edgarrincon/standards/blob/main/src/img/victorLasVegas.jpg?raw=true",
+  img: "https://github.com/edgarrincon/StandardApp/blob/main/src/img/victorLasVegas.jpg?raw=true",
   alt: "Victor Quintero",
   linkTo: "./victor",
   buttonSize: "btn--wide",
@@ -38,11 +36,10 @@ export const homeObjTheree = {
   topLine: "about us",
   headline: "Standards Apps",
   description:
-    "The pyramids were the first standards buildings, they are simple, efficient, and still there ; )",
+    "The pyramids were the first Standard buildings, they are simple, efficient, and still there ; )",
   buttonLabel: "Take a look",
   imgStart: "start",
-  img:
-    "https://raw.githubusercontent.com/edgarrincon/standards/main/src/img/logo.png",
+  img: "https://raw.githubusercontent.com/edgarrincon/StandardApp/main/src/img/logo.png",
   alt: "Edgar Rincon",
   linkTo: "./",
   buttonSize: "btn--wide",
