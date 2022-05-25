@@ -39,7 +39,7 @@ export const homeObjTheree = {
     "The pyramids were the first Standard buildings, they are simple, efficient, and still there ; )",
   buttonLabel: "Take a look",
   imgStart: "start",
-  img: "https://raw.githubusercontent.com/edgarrincon/StandardApp/main/src/img/logo.png",
+  img: "https://github.com/edgarrincon/StandardApp/blob/main/src/img/logo.png?raw=true",
   alt: "Edgar Rincon",
   linkTo: "./",
   buttonSize: "btn--wide",

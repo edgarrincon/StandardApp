@@ -56,7 +56,7 @@ export const homeObjFour = {
   description: "official site for an amazing company",
   buttonLabel: "visit this Page",
   imgStart: "start",
-  img: "https://raw.githubusercontent.com/edgarrincon/StandardApp/main/src/img/bsi.png",
+  img: "https://github.com/edgarrincon/StandardApp/blob/main/src/img/bsi.png?raw=true",
   alt: "BSI",
   linkTo: "./bsi",
   buttonSize: "btn--wide",
