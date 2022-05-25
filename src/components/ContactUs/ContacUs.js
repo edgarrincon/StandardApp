@@ -91,7 +91,7 @@ export default function ContactUs() {
             <div className="col">
               <div className="home__hero-img-wrapper">
                 <img
-                  src="https://raw.githubusercontent.com/edgarrincon/standards/98635a0f4d5e5d28a803dba3c1b22883bce6168e/src/img/mail.svg"
+                  src="https://raw.githubusercontent.com/edgarrincon/StandardApp/e250cb856283786289e81a6495b357b1942ac967/src/img/mail.svg"
                   alt="email"
                   className="home__hero-img"
                 />
