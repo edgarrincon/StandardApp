@@ -1,4 +1,4 @@
-# Personal portfolio
+# Web Development Startup 
 
 [![Site preview](/public/social-image.png)](https://standardsapps.com/)
 
